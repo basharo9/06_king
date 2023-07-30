@@ -8,4 +8,26 @@ body {
    background-color: $primaryBgColor;
 }
  
- 
+.contain{
+   width: 95%;
+   margin: auto;
+   padding: 0 20px ;
+ }
+
+
+@media screen and (min-width: 1400px) {
+   .contain {
+      width: 75%;
+   }
+} 
+
+p {
+  color: $pTextColor;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+   color: $highlightTextColor;
+   font-family: 'Libre Baskerville', serif;
+}
