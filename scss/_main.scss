@@ -46,8 +46,27 @@
    }
 } 
 
-
 #about .sign{
    width: 100%;
    max-height: 60px;
+}
+
+// Our Menu section 
+.menu-card {
+   border: 2px dashed #f7f7f736;
+   border-radius: 9px;
+   padding: 32px;
+   img{
+      border-radius: 7px;
+   }
+   .star{
+      color: $highlightTextColor;
+   }
+   .price {
+      background-color:  $cardBgColor;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
 }

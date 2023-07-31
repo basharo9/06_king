@@ -25,12 +25,12 @@ p {
   font-weight: 400;
 }
 
-h1 {
+h1, h5 {
   color: #e8af49;
   font-family: "Libre Baskerville", serif;
 }
 
-h4 {
+h4, h2 {
   color: #fff;
   font-family: "Libre Baskerville", serif;
 }
@@ -120,6 +120,25 @@ header img {
 #about .sign {
   width: 100%;
   max-height: 60px;
+}
+
+.menu-card {
+  border: 2px dashed rgba(247, 247, 247, 0.2117647059);
+  border-radius: 9px;
+  padding: 32px;
+}
+.menu-card img {
+  border-radius: 7px;
+}
+.menu-card .star {
+  color: #e8af49;
+}
+.menu-card .price {
+  background-color: #212131;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

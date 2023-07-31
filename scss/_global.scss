@@ -14,7 +14,6 @@ body {
    padding: 0 20px ;
  }
 
-
 @media screen and (min-width: 1400px) {
    .contain {
       width: 75%;
@@ -27,12 +26,12 @@ p {
   font-weight: 400;
 }
 
-h1 {
+h1,h5 {
    color: $highlightTextColor;
    font-family: 'Libre Baskerville', serif;
 }
 
-h4{
+h4,h2 {
    color: #fff;
    font-family: 'Libre Baskerville', serif;
 }
