@@ -5,9 +5,40 @@
 .mini-card .image {
    width: 85px;
    height: 85px;
-   background-color: $secondBgColor;
+   background-color:  $cardBgColor;
    border-radius: 7px;
    display:flex;
    align-items: center;
    justify-content: center;
 } 
+
+// About Us Section
+#about{
+   background-color: $secondBgColor ;
+   padding-top: 100px;
+}
+
+.about-image {
+   max-width: 600px;
+   max-height: 600px;
+   margin: auto;
+}
+
+.about-card {
+   background-color: $primaryBgColor;
+   padding: 30px;
+   border-radius: 9px;
+   img {
+      background-color: $cardBgColor;
+      max-width: 85px;
+      border-radius: 7px;
+      margin-bottom: 20px;
+   }
+   h4{
+      color: $highlightTextColor;
+   }
+}
+#about .sign{
+   width: 100%;
+   max-height: 60px;
+}
