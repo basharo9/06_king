@@ -38,6 +38,15 @@
       color: $highlightTextColor;
    }
 }
+
+@media screen and (max-width: 1200px) {
+   .about-card {
+     max-width:600px;
+     margin: auto;
+   }
+} 
+
+
 #about .sign{
    width: 100%;
    max-height: 60px;
